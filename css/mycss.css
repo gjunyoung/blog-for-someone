@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+.starter2{
+    padding: 40px 50px;
+    margin：auto;
+}
+
 .bg{
     background: url("../img/bgimg/wood.jpg")  fixed ;
     -webkit-background-size: auto;
