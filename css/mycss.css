@@ -14,8 +14,9 @@
 }
 
 .starter2{
-    padding: 40px 50px;
-    margin：auto;
+    padding-top: 40px;
+    max-width: 800px;
+    margin:0px auto;
 }
 
 .bg{
