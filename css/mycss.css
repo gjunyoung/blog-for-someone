@@ -1,0 +1,37 @@
+* {
+    font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+
+body{
+    padding-top: 50px;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+.starter{
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.bg{
+    background: url("../img/bgimg/wood.jpg")  fixed ;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;
+    color:#fff;
+    background-color:#333;
+    font-family: 'microsoft yahei' ,Arial,sans-serif;
+}
+
+a{
+    font-size : 2.5em;
+}
+
+.modal-dialog {
+    margin: 200px auto;
+}
