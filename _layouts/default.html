@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,inital-scale=1">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mycss.css">
+</head>
 
+<body class="bg">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- 头像 -->
+        <div class="navbar-header" style="padding-top: -10px">
+            <a href="{{site.baseurl}}">
+                <img id="toppic" class="navbar-brand" src="img/iconimg/maybe.jpg"
+                     style="width: 110px;height: 100px;">
+            </a>
+        </div>
+
+        <!-- 导航 -->
+        <div id="navbar" class="collapse navbar-collapse" style="padding-top: 14px">
+            <ul id="mytab" class="nav nav-pills">
+                <li class="active"><a href="{{site.baseurl}}/test" >生活大爆炸</a></li>
+                <li role="presentation"><a href="#">图片</a></li>
+                <li role="presentation"><a href="#">Movie</a></li>
+                <li role="presentation"><a href="#">音乐</a></li>
+                <li role="presentation"><a href="#">逗你玩</a></li>
+                <form class="navbar-form navbar-left" role="search" style="padding-top: 13px;">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索">
+                    </div>
+                    <button type="button" class="btn btn-default">搜索</button>
+                </form>
+
+                <ul  class="nav nav-pills navbar-right">
+                    <li>
+                        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
+                                src="http://music.163.com/outchain/player?type=2&id=25706282&auto=1&height=66"></iframe>
+                    </li>
+                    <li class="dropdown" style="padding-top: 10px">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-size : 2.0em;">skin
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu myself" role="menu" aria-labelledby="Province" id="menu">
+                            <li role="presentation" id="dropdown1"><a  role="menuitem" tabindex="-1">水原希子</a></li>
+                            <li role="presentation" id="dropdown2"><a  role="menuitem" tabindex="-1">綾瀬はるか</a></li>
+                            <li role="presentation" id="dropdown3"><a  role="menuitem" tabindex="-1">nana</a></li>
+                            <li role="presentation" id="dropdown4"><a  role="menuitem" tabindex="-1">星空</a></li>
+                            <li role="presentation" id="dropdown5"><a  role="menuitem" tabindex="-1">老人与海</a></li>
+                            <li role="presentation" id="dropdown6"><a  role="menuitem" tabindex="-1">原画</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    {{content}}
+</div>
+<div id="footer">&copy; 2016 LittleAttic. <a href="https://github.com/gjunyoung">My Github</a></div>
+<script src="js/jquery-2.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/myself.js"></script>
+</body>
+</html>
