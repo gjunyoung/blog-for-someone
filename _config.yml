@@ -1,4 +1,2 @@
 baseurl: https://gjunyoung.github.io
 permalink: /:year-:month-:day/:title.html
-
-markdown: kramdown
