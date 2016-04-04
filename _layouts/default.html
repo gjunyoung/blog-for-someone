@@ -18,6 +18,13 @@
     <div class="container-fluid">
         <!-- 头像 -->
         <div class="navbar-header" style="padding-top: -10px">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
             <a href="{{site.baseurl}}">
                 <img id="toppic" class="navbar-brand" src="../img/iconimg/maybe.jpg"
                      style="width: 110px;height: 100px;">
@@ -25,7 +32,7 @@
         </div>
 
         <!-- 导航 -->
-        <div id="navbar" class="collapsed navbar-toggle" style="padding-top: 14px" >
+        <div id="navbar" class="collapse navbar-collapse" style="padding-top: 14px" >
             <ul id="mytab" class="nav nav-pills">
                 <li class="active"><a href="{{ site.baseurl }}/note">日记</a></li>
                 <li role="presentation"><a href="{{ site.baseurl }}/pictures">相册</a></li>
