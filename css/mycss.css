@@ -18,7 +18,7 @@ body{
 }
 
 .bg{
-    background: url("../img/bgimg/wood.jpg")  fixed ;
+    background: url("{{site.baseurl}}/img/bgimg/wood.jpg")  fixed ;
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
