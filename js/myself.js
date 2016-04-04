@@ -17,10 +17,7 @@
 //        });
 //    });
 //}
-$("#mytab a").click(function(e){
-    e.preventDefault();
-    $(this).tab("show");
-});
+
 
 $("#menu a").css("font-size","1.5em");
 
