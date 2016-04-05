@@ -1,0 +1,28 @@
+---
+layout: post
+title: pandoc
+tags: [pandoc,markdown]
+---
+
+# <img src="../../img/iconimg/maybe.jpg" width="80" height="70"/> pandoc+markdown
+***
+
+写这个的时候我正在下载[*pandoc*](http://pandoc.org/installing.html)，**但是**，所有的链接全是*github上*的，你能理解下载的有多纠结么，一共就20M，下了5分钟就0.6，还是等睡觉的时候下吧。我觉得赵家人还是放开网络吧，至少这些技术类的网站放开吧，不然还搞什么互联网+，+你妹嘛？
+
+现在0.7了
+
+就这样吧。
+
+　　    **—— by** <a href="http://weibo.com/5361280715/profile?rightmod=1&wvr=6&mod=personinfo" color="white" title="我的微博">
+                                <img src="../../img/iconimg/logo.png" width="35" height="35"/>
+                                </a>
+
+　　　　 **2016/4/2**
+
+[*Markdown*]: http://sspai.com/25137 "Markdown地址"
+[*BLog*]: http://macdfree.github.io/ "BLog地址"
+[*webstorm*]: http://www.jetbrains.com/webstorm/ "webstorm下载地址"
+[*AngularJS*]: http://docs.angularjs.cn/api "AngularJS文档地址"
+[*bootstrap*]: http://www.bootcss.com/ "bootstrap中文API"
+
+
