@@ -27,8 +27,8 @@
         <!-- 导航 -->
         <div class="collapse navbar-collapse" id="navbar-collapse1" style="padding-top: 14px">
             <ul id="mytab" class="nav nav-pills">
-                <li><a href="{{ site.baseurl }}/note" data-toggle="pill">日记</a></li>
-                <li><a href="{{ site.baseurl }}/pictures" data-toggle="pill">相册</a></li>
+                <li><a href="#home" data-toggle="pill">日记</a></li>
+                <li><a href="#profile" data-toggle="pill">相册</a></li>
                 <li><a href="#">Movie</a></li>
                 <li><a href="#">音乐</a></li>
                 <li><a href="#" data-toggle="modal" data-target="#headModal">种子</a></li>
@@ -70,9 +70,11 @@
         <p>哔哩哔哩哔哩</p>
         <p>demo算是做完了，嗯...我还是放弃Jekyll的搭建方式吧，交互太烂了，访问github也太卡了，此项目暂停，重新用WordPress做一个吧</p>
     </div>
-    <div class="tab-content starter2">
-    {{ content }}
-    </div>
+    
+   <div class="tab-content">
+    <div class="tab-pane active" id="home">a</div>
+    <div class="tab-pane" id="profile">b</div>
+</div>
     
     <div class="modal fade" id="headModal">
         <div class="modal-dialog">
