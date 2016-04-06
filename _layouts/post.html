@@ -11,11 +11,6 @@ layout: default
   {% endfor %}
 </span>
 <div id="content">
-  {{ page.content }}
+  {{ content }}
 </div>
 
-<ul>
-  {% for post in site.posts %}
-      <span>{{post.date | date: "%Y-%m-%d"}}&nbsp;<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></span><br />
-  {% endfor %}
-</ul>
