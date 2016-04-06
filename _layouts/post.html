@@ -13,3 +13,11 @@ layout: default
 <div id="content">
   {{ page.content }}
 </div>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
