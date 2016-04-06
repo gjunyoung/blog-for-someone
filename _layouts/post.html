@@ -16,8 +16,6 @@ layout: default
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+      <span>{{post.date | date: "%Y-%m-%d"}}&nbsp;<a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></span><br />
   {% endfor %}
 </ul>
