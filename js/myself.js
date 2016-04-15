@@ -30,7 +30,7 @@ $(function(){
 
     $('#dropdown2').dropdown().on("click", function(e) {
         $(".bg").css({
-            "background": "url('../img/bgimg/l1.jpg')  fixed",
+            "background": "url('http://7xsqkt.com2.z0.glb.clouddn.com/img%2Fbgimg%2Fl1.jpg')  fixed",
             "-webkit-background-size": "contain",
             "-moz-background-size": "contain",
             "-o-background-size": "contain",
@@ -43,7 +43,7 @@ $(function(){
 
     $('#dropdown3').dropdown().on("click", function(e) {
         $(".bg").css({
-            "background": "url('../img/bgimg/nana.jpg') repeat ",
+            "background": "url('http://7xsqkt.com2.z0.glb.clouddn.com/img%2Fbgimg%2Fnana.jpg') repeat ",
             "-webkit-background-size": "auto",
             "-moz-background-size": "auto",
             "-o-background-size": "auto",
@@ -56,7 +56,7 @@ $(function(){
 
     $('#dropdown1').dropdown().on("click", function(e) {
         $(".bg").css({
-            "background": "url('../img/bgimg/s2.jpg')  fixed",
+            "background": "url('http://7xsqkt.com2.z0.glb.clouddn.com/img%2Fbgimg%2Fs2.jpg')  fixed",
             "-webkit-background-size": "contain",
             "-moz-background-size": "contain",
             "-o-background-size": "contain",
@@ -69,7 +69,7 @@ $(function(){
 
     $('#dropdown4').dropdown().on("click", function(e) {
         $(".bg").css({
-            "background": "url('../img/bgimg/star.jpg') no-repeat center fixed",
+            "background": "url('http://7xsqkt.com2.z0.glb.clouddn.com/img%2Fbgimg%2Fstar.jpg') no-repeat center fixed",
             "-webkit-background-size": "cover",
             "-moz-background-size": "cover",
             "-o-background-size": "cover",
@@ -82,7 +82,7 @@ $(function(){
 
     $('#dropdown5').dropdown().on("click", function(e) {
         $(".bg").css({
-            "background": "url('../img/bgimg/sad.jpg')  fixed",
+            "background": "url('http://7xsqkt.com2.z0.glb.clouddn.com/img%2Fbgimg%2Fsad.jpg')  fixed",
             "-webkit-background-size": "100% 100%",
             "-moz-background-size": "100% 100%",
             "-o-background-size": "100% 100%",
